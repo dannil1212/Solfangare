@@ -1,18 +1,87 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='shortcut icon' type='image/x-icon' href='icon.ico' />
-    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <title></title>
-    
-  </head>
-  <body>
-      
-    
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='shortcut icon' type='image/x-icon' href='sun.ico' />
+        <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <link href="css/css.css" rel="stylesheet">
+        <title></title>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <img src="bilder/sun.png" alt="sol" id="vänster"/>
+                    <a href="index.html" class="navbar-brand">
+                        Start</a>
+                    <button class="navbar-toggle" data-toggle="collapse" 
+                            data-target="#content-nav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="clear"></div>
+                <div class="collapse navbar-collapse högerJustera" id="content-nav">
+                    <!--Innehållet i menyn-->
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="solfangare.html">
+                                Vad är en solfångare</a></li>
+                        <li><a href="plan.html">Plan solfångare</a></li>
+                        <li><a href="vakuum.html">Vakuumsolfångare</a></li>
+                        <li><a href="tillampning.html">Tillämpning</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <h3>Vad är en solfångare?</h3>
+            <p>Solfångare är byggda för att koncentrerat fånga upp solens 
+                strålning, för att värma upp vatten. Vattnet går igenom 
+                solfångaren i kopparrör, ner till en ackumulatortank och värmer 
+                upp vattnet i tanken för att sedan pumpas tillbaka upp i 
+                solfångaren. I ackumulatortanken lagras det varma vattnet.
+            </p>
+            <p>
+                Den används för att ersätta användningen av el, ved, fossila 
+                bränslen etc. Den är mest produktiv under sommarhalvåret och kan
+                ersätta all eluppvärmning av vattnet i en fastighet. Billigare 
+                och miljövänligare.
+            </p>
+            <p>
+                För att beräkna den maximala energin som kan plockas ut ur en 
+                solfångare kan beräknas med följande formel:<br>
+                <img src="bilder/formel.PNG" alt="matematisk formel" 
+                     class="img-responsive" id="formelImg"/>
+            </p>
+            <p>
+                Energin i solinstrålningen varierar mellan olika länder.  
+                I Sverige är den genomsnittliga solinstrålningen cirka 1060 
+                w/m^2, jämfört med runt medelhavet där solinstrålningen kan 
+                vara uppåt 1900 w/m^2.
+            </p>
+            <p>
+                Det finns två olika typer av solfångare, 
+                vakuumsolfångare och plana solfångare. Skillnaden mellan de båda
+                typerna är t.ex. att plana solfångare är billigare och generellt
+                sett hållbarare än vakuumsolfångare, men de är också mer 
+                beroende av att sitta i ett bra söderläge med rätt lutning för 
+                att producera lika mycket värme.
+            </p>
+        </div>
+        <div class="side-wrapper">
+            <div class="row">
+                <div  class="col-sm-12 col-md-12 col-lg-12">
+                    <img src="bilder/uppvärmningssystem.PNG" 
+                         alt="Komplett uppvärmningssystem" 
+                         class="img-responsive img-rounded img-thumbnail"/>
+                    <p>Komplett uppvärmnings-system</p>
+                </div>
+            </div>
+        </div>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    </body>
 </html>

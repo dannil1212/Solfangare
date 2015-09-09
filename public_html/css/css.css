@@ -1,0 +1,59 @@
+body{
+    background-color:#d9e1e5;
+}
+
+/*---Caruousel---*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+/*---Slut carousel---*/
+
+/*---Meny---*/
+.högerJustera{
+    float: right;
+}
+.meny{
+    border-radius: 10px;
+    margin: 2px 2px 2px 0;
+}
+#vänster{
+    float: left;
+}
+.clear{
+    clear: right;
+}
+/*---Slut meny---*/
+
+/*---Wrapper & Side-wrapper---*/
+.wrapper{
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 5%;
+    border: solid #bec5c9 2px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;    
+    float: left;
+}
+.side-wrapper{
+    float: right;
+    margin-right: 2%;
+    margin-top: 5%;
+    width: 22%;
+}
+.side-wrapper img{
+    width: 100%;
+}
+.side-wrapper p{
+    font-style: italic;
+}
+#formelImg{
+    padding: 1%;
+}
+#kursiv{
+    font-style: italic;
+}
+/*---Slut wrapper & Side-wrapper---*/

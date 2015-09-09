@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='shortcut icon' type='image/x-icon' href='icon.ico' />
-    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <title></title>
-    
-  </head>
-  <body>
-      
-    
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='shortcut icon' type='image/x-icon' href='sun.ico' />
+        <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <link href="css/css.css" rel="stylesheet">
+        <title></title>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <img src="bilder/sun.png" alt="sol" id="vänster"/>
+                    <a href="index.html" class="navbar-brand">Start</a>
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#content-nav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse högerJustera" id="content-nav">
+                    <!--Innehållet i menyn-->
+                    <ul class="nav navbar-nav">
+                        <li><a href="solfangare.html">Vad är en solfångare</a></li>
+                        <li class="active"><a href="plan.html">Plan solfångare</a></li>
+                        <li><a href="vakuum.html">Vakuumsolfångare</a></li>
+                        <li><a href="tillampning.html">Tillämpning</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <h3>Plan solfångare</h3>
+            <p>
+                Plana solfångare är gjorda av en hel absorberingsplåt, med en 
+                rörslinga för värmeledaren (vatten/glykos, så det inte fryser på
+                vintern). Plåten sitter i en välisolerad låda, med en glasskiva 
+                på framsidan. Plana solfångare kan, till skillnad från 
+                vakuumsolfångare, monteras direkt i taket, och därmed ersätta 
+                takpannorna på den ytan.
+            </p>
+            <hr/>
+            <img src="bilder/Plansolfångare.PNG" alt="Plan solfångare" 
+                 class="img-responsive img-rounded img-thumbnail"/>
+            <p id="kursiv">Plan solfångare</p>
+        </div>
+
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    </body>
 </html>
